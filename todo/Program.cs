@@ -7,7 +7,7 @@
     var index = 0;
     foreach (var value in myArray)
     {
-        if (value.Length < 3)
+        if (value.Length <= 3)
         {
             newArray[index] = value;
             index++;
