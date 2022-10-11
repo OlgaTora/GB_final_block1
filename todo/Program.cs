@@ -18,3 +18,6 @@
 
 Console.WriteLine("Input your list with space");
 string inputString = Console.ReadLine();
+
+var newArray = ChangeArray(inputString);
+Console.WriteLine($"New array is: {string.Join(" ", newArray)}");
